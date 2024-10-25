@@ -1,59 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-<body>
-<!--     
-<h3> Enter your choice</h3>
-<ul>
-    <li>add</li>
-    <li>sub</li>
-    <li>Mult</li>
-</ul> -->
-<!-- <form >
-<input type="text" name="" id="choices">
-<br>
-<button onclick="myfun()" >Click me</button>
-</form> -->
-<div class="main-div">
-    <div class="inner-div">
-        <h2 class="question">Question comes here</h2>
-        <ul>
-            <li>
-                <input type="radio" name="answer" id="ans1" class="answer">
-                <label for="ans1" id="option1">Answer Option</label>
 
-            </li>
-            <li>
-                <input type="radio" name="answer" id="ans2" class="answer">
-                <label for="ans2" id="option2">Answer Option</label>
-                
-            </li>
-            <li>
-                <input type="radio" name="answer" id="ans3" class="answer">
-                <label for="ans3" id="option3">Answer Option</label>
-                
-            </li>
-            <li>
-                <input type="radio" name="answer" id="ans4" class="answer">
-                <label for="ans4" id="option4">Answer Option</label>
-                
-            </li>
-        </ul>
-        <button id="submit">Submit</button>
-        <div id="showScore" class="scoreArea">
+<body>
+    
+
+    <div class="main-div">
+        <div class="inner-div">
+            <h2 class="question">Question comes here</h2>
+
+            <label><input type="radio" name="answer" id="ans1" class="answer"> 
+                <span id="option1"></span></label><br>
+            <label><input type="radio" name="answer" id="ans2" class="answer"> 
+                <span id="option2"></span></label><br>
+            <label><input type="radio" name="answer" id="ans3" class="answer"> 
+                <span id="option3"></span></label><br>
+            <label><input type="radio" name="answer" id="ans4" class="answer"> <span
+                    id="option4"></span></label><br><br>
+            <button id="submit">Submit</button>
+            <button id="next" style="display:none;">Next</button>
+            <p id="showScore"></p>
+            <p id="showfeedback"></p>
+
+
 
         </div>
     </div>
 
-</div>
+    </div>
 
 
 
     <script src="Script.js"></script>
 </body>
+
 </html>

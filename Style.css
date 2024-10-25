@@ -33,7 +33,7 @@ html {
     font-weight: 1.5rem;
 }
 
-.inner-div li {
+.inner-div label {
     font-size: 2rem;
     margin-top: 1.5rem;
     list-style: none;
@@ -43,6 +43,23 @@ html {
     cursor: pointer;
 }
 
+#next,
+.btn{
+    padding: 1rem,3rem;
+    outline:none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 4rem;
+}
+
+#next:hover{
+    background-color: #0984e3;
+}
 #submit, 
 .btn{
     padding: 1rem,3rem;
@@ -60,23 +77,27 @@ html {
 #submit:hover{
     background-color: #0984e3;
 }
-#showScore{
+/* #showScore{
     background-color: #dfe6e9;
     margin-top: 3rem;
     padding: 3rem 4rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
-}
+} */
 .scoreArea{
     display: none;
 }
 
-#showScore h3{
+#showScore {
     font-size: 2rem;
     text-align: center;
 }
-
+#showfeedback {
+    font-size: 2rem;
+    text-align: center;
+}
 #showScore .btn{
     margin-top: 2rem;
     background-color: #55efc4;
     color: #2d3436;
 }
+
